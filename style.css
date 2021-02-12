@@ -29,6 +29,8 @@ body {
   height: 75rem;
   align-items: center;
   padding-top: 4rem;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .head__nav {
@@ -42,6 +44,8 @@ body {
 .head__title {
   background-color: black;
   width: 120rem;
+  line-height: 50px;
+  align-items: center;
 }
 
 .inventory {}
