@@ -1,0 +1,50 @@
+/* CSS UNIVERSAL RESET */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  /* allows all elements ti inherit box-sizing from body*/
+  box-sizing: inherit;
+}
+
+html {
+  /* Equiv to standard of 10px but allows user to set own font */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.2rem;
+  text-align: center;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  box-sizing: border-box;
+}
+
+.head {
+  display: flex;
+  background-color: grey;
+  height: 75rem;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.head__nav {
+  background-color: red;
+  height: 6.9rem;
+  position: fixed;
+  width: 100%;
+  border-bottom: 0.1rem solid seashell;
+}
+
+.head__title {
+  background-color: black;
+  width: 120rem;
+}
+
+.inventory {}
+
+.inventory__title {}
+
