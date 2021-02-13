@@ -48,7 +48,34 @@ body {
   align-items: center;
 }
 
-.inventory {}
+.inventory {
+  justify-content: center;
+  background-color: blue;
+  height: 60rem;
+  width: 100%; 
+}
 
-.inventory__title {}
+.inventory__title {
+  background-color: green;
+  width: 100rem;
+  margin: auto;
+}
 
+.inventory__images {
+  display: flex;
+  background-color: teal;
+  width: 100rem;
+  margin: auto;
+  justify-content: space-between;
+
+}
+
+.location {
+  background-color: purple;
+  height: 70rem;
+
+}
+
+.footer {
+  height: 5rem;
+}
