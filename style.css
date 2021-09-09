@@ -25,12 +25,15 @@ body {
 
 .head {
   display: flex;
-  background-color: grey;
-  height: 75rem;
+  height: 70rem;
+  
+  justify-content: center;
   align-items: center;
   padding-top: 4rem;
   padding-left: 10px;
   padding-right: 10px;
+  background-image: url("./images/img-mission-background.webp");
+  background-size: cover;
 }
 
 .head__nav {
@@ -39,6 +42,29 @@ body {
   position: fixed;
   width: 100%;
   border-bottom: 0.1rem solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-left: 10px;
+  
+}
+
+.head__nav ul {
+  display: flex;
+}
+
+.head__nav ul li {
+  margin-left: 10px;
+  text-decoration: underline;
+  list-style-type: none;
+}
+
+.content {
+  padding: 2rem;
 }
 
 .head__title {
@@ -49,33 +75,36 @@ body {
 }
 
 .inventory {
-  justify-content: center;
+  margin: 0 auto;
   background-color: blue;
   height: 60rem;
-  width: 100%; 
+  width: 83%; 
 }
 
 .inventory__title {
   background-color: green;
-  width: 100rem;
+  width: 100%;
   margin: auto;
 }
 
 .inventory__images {
   display: flex;
   background-color: teal;
-  width: 100rem;
+  width: 100%;
   margin: auto;
   justify-content: space-between;
 
 }
 
 .location {
+  margin: 0 auto;
   background-color: purple;
   height: 70rem;
-
+  width: 83%;
+  
 }
 
 .footer {
   height: 5rem;
+  width: 100%;
 }
